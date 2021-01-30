@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+  }
+  .nav2 nav{
+      flex:1;
+      text-align:right ;
+  }
+  nav ul{
+      display: inline-block;
+      list-style-type: none;
+  }
+  .nav2 nav ul li{
+      display: inline-block;
+      margin-right: 20px;
+}
+  
+  .nav1 nav{
+    flex:1;
+    text-align:left ;
+  }
+  .nav1 nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav2{
+    text-align: left;
+    margin-left: 320px;
+
+}
+#sch{
+    background-color: orangered;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+}
